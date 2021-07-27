@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="style.css">
+  <script src="https://kit.fontawesome.com/f55d9c1765.js" crossorigin="anonymous"></script>
+  <script src="https://code.jquery.com/jquery-2.2.3.min.js"></script>
+  <script>
+    $(function(){
+      $(".header_c").click(function(){
+        $(".header_b").slideToggle();
+      });
+    });
+  </script>
+  <title>ls_des_prot</title>
+</head>
+<body>
+  <header>
+    <div class="container">
+      <div class="container_small">
+        <!-- ヘッダーA -->
+        <a href="#" class="header_a">LOGGER</a>
+        <!-- ヘッダーC -->
+        <button type="button" class="header_c">
+          <span class="fa fa-bars" title="MENU"></span>
+        </button>
+      </div>
+      <!-- ヘッダーB -->
+      <nav class="header_b">
+        <ul>
+          <li><a href="#">トップ</a></li>
+          <li><a href="#">コンテンツ</a></li>
+          <li><a href="#">ABOUT</a></li>
+          <li><a href="#">お問い合せ</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+  <section class="con_a">
+    <!-- トップイメージ -->
+    <div class="container">
+      <img src="img/logo.svg" alt="">
+      <h1>LOGGER</h1>
+      <p>美味しく楽しくライフブログ</p>
+      <a href="#">ライフブログを始める</a>
+    </div>
+  </section>
+  <section class="con_b">
+    <!-- アイコン＋テキスト -->
+    <div class="container">
+      <div class="text_box">
+        <span class="fa fa-bar-chart icon"></span>
+        <h2>ライフログって何？</h2>
+        <p>日常のあれこれを記録していくライフログ。いろいろなものが見えてきます。</p>
+        <a href="#">MORE...
+          <span class="fa fa-chevron-right"></span>
+        </a>
+      </div>
+      <div class="text_box">
+        <span class="fa fa-gears icon"></span>
+        <h2>必要なのはスマホだけ</h2>
+        <p>ライフログを始めるのに必要なのはスマホだけ。いつでもスタートできます。</p>
+        <a href="#">MORE...
+          <span class="fa fa-chevron-right"></span>
+        </a>
+      </div>
+      <div class="text_box">
+        <span class="fa fa-rocket icon"></span>
+        <h2>SNSとの連携も簡単</h2>
+        <p>TwitterやFacebookといったSNSと連携して、簡単にブログを共有できます。</p>
+        <a href="#">MORE...
+          <span class="fa fa-chevron-right"></span>
+        </a>
+      </div>
+    </div>
+  </section>
+  <section class="con_c">
+    <!-- 画像＋テキスト -->
+    <div class="container">
+      <div class="photo"></div>
+      <div class="text">
+        <h2>面倒な設定やデータの管理は全部おまかせ</h2>
+        <p>
+          ライフログでつまづきがちな面倒な設定やデータの管理の煩わしさはありません。
+          他のアプリとの連携もワンクリックで完了です。
+        </p>
+        <a href="#">詳しい設定方法を確認する
+          <span class="fa fa-chevron-right"></span>
+        </a>
+      </div>
+    </div>
+  </section>
+  <section class="con_d">
+    <!-- 画像＋テキスト 画面幅768px以上は横（逆表示） -->
+    <div class="container">
+      <div class="photo"></div>
+      <div class="text">
+        <h2>ライフログで毎日の日常生活をもっと楽しむ</h2>
+        <p>ふと気づくと蓄積しているライフログ。
+          ログを見返すといろいろな事が見えてきて、なんて事ない日常も楽しくなってきます。
+        </p>
+        <a href="#">例えばこんな楽しみが…
+          <span class="fa fa-chevron-right"></span>
+        </a>
+      </div>
+    </div>
+  </section>
+  <!-- フッター -->
+  <footer>
+    <div class="container">
+      <div class="footer_a">
+        <h2>LOGGER</h2>
+        <p>〒000−0000 東京都港区〇〇0−0−0<br>
+          <a href="#">http://logger.com</a>
+        </p>
+      </div>
+      <nav class="footer_b">
+        <div>
+          <h3>ABOUT</h3>
+          <ul>
+            <li><a href="#">設立</a></li>
+            <li><a href="#">住所地</a></li>
+            <li><a href="#">地図</a></li>
+            <li><a href="#">スタッフ</a></li>
+          </ul>
+        </div>
+        <div>
+          <h3>SUPPORT</h3>
+          <ul>
+            <li><a href="#">ダウンロード</a></li>
+            <li><a href="#">マニュアル</a></li>
+            <li><a href="#">よくある質問</a></li>
+            <li><a href="#">お問い合せ</a></li>
+          </ul>
+        </div>
+        <div>
+          <h3>CONTENTS</h3>
+          <ul>
+            <li><a href="#">お知らせ</a></li>
+            <li><a href="#">ビジネス</a></li>
+            <li><a href="#">プロフィール</a></li>
+            <li><a href="#">開発者</a></li>
+            <li><a href="#">ブログ</a></li>
+          </ul>
+        </div>
+      </nav>
+
+    </div>
+  </footer>
+</body>
+</html>
