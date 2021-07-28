@@ -448,6 +448,10 @@ header {
   .header_b ul {
     display: flex;
   }
+  /* ヘッダーC */
+  .header_c {
+    display: none;
+  }
 }
 
 
